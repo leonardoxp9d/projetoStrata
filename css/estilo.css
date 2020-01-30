@@ -243,6 +243,25 @@ textarea{
     border-radius: 5px;
 }
 
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+.main-footer .ul-icons .icon-link{
+    border: none;
+    color: #787878;
+    font-size: .8em;
+}
+.main-footer .copyright li{
+    list-style-type: none;
+    display: inline;
+}
+
 /* Grid */
 .row{
     overflow: auto;
