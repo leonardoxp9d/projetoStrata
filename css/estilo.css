@@ -2,6 +2,7 @@ body{
     font-family: 'Open Sans',arial, helvetica, sans-serif;
     color: #777;
     line-height: 1.7;
+    background: #282a36;
 }
 a{
     transition: color .2s linear, border .2s linear ;
@@ -14,6 +15,15 @@ a:hover{
 }
 p{
     margin: 0 0 2em;
+}
+.avatar-img{
+    box-sizing: border-box;
+    border: 2.5px solid #ff00ff;
+    transition: color .2s linear, border .2s linear ;
+}
+.avatar-img:hover{
+    border: 10px  #49bf9d;
+    border-style: double; 
 }
 
 img{
@@ -142,7 +152,7 @@ textarea{
     cursor: pointer;
 }
 .button-default:hover{
-    background-color: #5ddeb9;
+    background-color: #ff00ff;
     border-color: transparent;
 }
 .button-default:focus{
@@ -151,11 +161,11 @@ textarea{
 .button-default-stroke{
     background-color: white;
     border: 2px solid #efefef;
-    color: inherit;
+    color: #49bf9d;
 }
 .button-default-stroke:hover{
-    color: #49bf9d;
-    border-color: #49bf9d;
+    color: #ff00ff;
+    border-color: #ff00ff;
     background-color: white;
 }
 .button-default-stroke:focus{
