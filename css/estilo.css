@@ -16,14 +16,13 @@ a:hover{
 p{
     margin: 0 0 2em;
 }
-.avatar-img{
+.img-avatar{
     box-sizing: border-box;
     border: 2.5px solid #ff00ff;
     transition: color .2s linear, border .2s linear ;
 }
-.avatar-img:hover{
-    border: 10px  #49bf9d;
-    border-style: double; 
+.img-avatar:hover{
+    border: 10px double #49bf9d;
 }
 
 img{
@@ -224,7 +223,7 @@ textarea{
     width: 35%;
     padding: 124px 54px 72px 54px;
     box-sizing: border-box;
-    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    background-image: url(../images/overlay.png), url(../images/bg.gif);
     background-position: left top;
     background-size: auto, cover;
     text-align: right;
@@ -232,9 +231,11 @@ textarea{
 .main-header-title{
     font-size: 22px;
     line-height: 1.5;
-    color: white;
     font-weight: normal;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 0.466);
+}
+.main-header-title-profile:hover{
+    color: #49bf9d;
 }
 .main-header-title strong{
     color: white;
